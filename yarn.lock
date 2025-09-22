@@ -3606,6 +3606,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/core@npm:6.5.5":
+  version: 6.5.5
+  resolution: "@mikro-orm/core@npm:6.5.5"
+  dependencies:
+    dataloader: 2.2.3
+    dotenv: 17.2.2
+    esprima: 4.0.1
+    fs-extra: 11.3.2
+    globby: 11.1.0
+    mikro-orm: 6.5.5
+    reflect-metadata: 0.2.2
+  checksum: ade7d4f46b9ff9629787e344346998c2f18ab0182e2b65057667b77577ee59594b61a5adbf9690551ce3248eeccc203862230abe1b6bcc306b2187d48dfdc936
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/knex@npm:6.4.3":
   version: 6.4.3
   resolution: "@mikro-orm/knex@npm:6.4.3"
@@ -9962,6 +9977,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:17.2.2":
+  version: 17.2.2
+  resolution: "dotenv@npm:17.2.2"
+  checksum: 673825993b16a6722332b2e1f8c24b1c2ebe3dd3b81ae5df9be35f1483bf52e0b463555b09da65b756c7abee3cf55ba2ae2628c22874a899556fa787fac56019
+  languageName: node
+  linkType: hard
+
 "dset@npm:^3.1.4":
   version: 3.1.4
   resolution: "dset@npm:3.1.4"
@@ -10637,6 +10659,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.2":
+  version: 11.3.2
+  resolution: "fs-extra@npm:11.3.2"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 24a7a6e09668add7f74bf6884086b860ce39c7883d94f564623d4ca5c904ff9e5e33fa6333bd3efbf3528333cdedf974e49fa0723e9debf952f0882e6553d81e
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -10698,7 +10731,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.3#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -12511,7 +12544,7 @@ __metadata:
     "@medusajs/medusa": 2.10.2
     "@medusajs/test-utils": 2.10.2
     "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/core": 6.5.5
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
     "@mikro-orm/postgresql": 6.4.3
@@ -12576,6 +12609,13 @@ __metadata:
   version: 6.4.3
   resolution: "mikro-orm@npm:6.4.3"
   checksum: add83846353d4af70de1ecc6fc4d988c45613335c1b6a58fd88c3052e28193d64ab544c0a6b1f164850763141092be0f064929bf28fa31dfa674884d4025493e
+  languageName: node
+  linkType: hard
+
+"mikro-orm@npm:6.5.5":
+  version: 6.5.5
+  resolution: "mikro-orm@npm:6.5.5"
+  checksum: c54298d8996129aada69fc8e2022767e44d5a47a175771cc2c5ebbb94ca5f6ead26f42dd8b6b390d214dfe589022f5902340e7e59dad96c57f34daccce3fc14d
   languageName: node
   linkType: hard
 
@@ -14458,7 +14498,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.8#~builtin<compat/resolve>, resolve@patch:resolve@~1.22.1#~builtin<compat/resolve>":
   version: 1.22.10
-  resolution: "resolve@patch:resolve@npm%3A1.22.10#~builtin<compat/resolve>::version=1.22.10&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.10#~builtin<compat/resolve>::version=1.22.10&hash=c3c19d"
   dependencies:
     is-core-module: ^2.16.0
     path-parse: ^1.0.7
@@ -15529,11 +15569,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.6.2#~builtin<compat/typescript>":
   version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#~builtin<compat/typescript>::version=5.7.3&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#~builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 633cd749d6cd7bc842c6b6245847173bba99742a60776fae3c0fbcc0d1733cd51a733995e5f4dadd8afb0e64e57d3c7dbbeae953a072ee303940eca69e22f311
+  checksum: 081eb086b0247a54cd8d61e34c10c3325037b0fdf00e135738d923e4e79f492e128be31ed03980039874ef1aa2e6fded8067f7be0cd92790efd2576e1d70e723
   languageName: node
   linkType: hard
 
